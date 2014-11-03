@@ -1,6 +1,6 @@
 package main
 
-import "log"
+import "fmt"
 
 /*
 https://oj.leetcode.com/problems/two-sum/
@@ -12,8 +12,7 @@ Output: index1=1, index2=2})
 */
 func main() {
 	nums := []int{2, 7, 11, 15, 18, 22}
-	log.Println((twoSum(nums, 37)))
-
+	fmt.Println((twoSum(nums, 37)))
 }
 func twoSum(nums []int, target int) (index1, index2 int) {
 	for i1, _ := range nums {
